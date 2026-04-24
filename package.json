@@ -1,6 +1,6 @@
 {
     "name": "wheels-hotwire",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Wheels Core Team",
     "description": "Hotwire infrastructure for Wheels: Turbo Drive, Turbo Frames, Turbo Streams, Stimulus helpers, and Hotwire Native mobile support",
     "wheelsVersion": ">=4.0",
