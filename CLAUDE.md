@@ -8,7 +8,7 @@ This package is part of the Wheels first-party package collection, hosted in the
 
 ## Package Architecture
 
-Standard Wheels package. The main CFC (`Hotwire.cfc`) contains `init()` and all public methods, which Wheels injects into controller and view scopes via PackageLoader. Any public function defined here is callable as `#functionName()#` in views and `functionName()` in controllers.
+Standard Wheels package. The main CFC (`Hotwire.cfc`) contains `init()` and all public methods, which Wheels injects into the controller scope via PackageLoader. Because Wheels views execute in the controller's `variables` scope, these methods surface transitively in views — any public function defined here is callable as `#functionName()#` in views and `functionName()` in controllers.
 
 ## File Structure
 
