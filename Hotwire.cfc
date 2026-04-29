@@ -4,7 +4,7 @@
  * Turbo Streams, Stimulus, and Hotwire Native.
  * No CSS opinions — pair with wheels-basecoat or any design system.
  */
-component mixin="controller,view" output="false" {
+component mixin="controller" output="false" {
 
 	function init() {
 		this.version = "3.0";
